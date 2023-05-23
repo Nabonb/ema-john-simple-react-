@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './Shop.css'
 import Product from '../Product/Product';
+import Order from '../Order/Order';
 
 const Shop = () => {
     const [products,setProducts]=useState([])
@@ -19,7 +20,7 @@ const Shop = () => {
                 }
             </div>
             <div className='order-summary'>
-                <h2>dawdawd</h2>
+                <Order></Order>
             </div>
         </div>
     );
