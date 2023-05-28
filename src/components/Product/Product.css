@@ -10,9 +10,14 @@
     margin: 45px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    height:508px;
 }
 .cart-info{
     margin: 10px;
+}
+.cart-info h4, h5, p{
+    margin: 0px;
+    padding: 4px;
 }
 .cart button{
     width: 100%;
