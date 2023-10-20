@@ -30,7 +30,7 @@ const Shop = () => {
             // console.log(id)
         //step 2: Get The Product By Using Id
             const addedProduct = products.find(product => product.id === id)//those product was find which id is matched with the local storage stored id and then the full product stored in the addedProduct. And Find shudu matro akhta product dibe mile gele ar khujbe na.
-            // console.log(addedProduct);
+            console.log(addedProduct);
         //step 3: Set Quantity
             if (addedProduct) {//jodi addedproduct a product add hoi tahole dhukbe tai ai shorto disa cz first a kichu pabe na error dibe tai ai shorto.
                 const quantity = storedCart[id];
