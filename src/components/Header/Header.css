@@ -14,3 +14,7 @@
 .header a:hover{
     color: rgb(225, 131, 64);
 }
+.user-text{
+    color: white;
+    margin-left: 10px;
+}

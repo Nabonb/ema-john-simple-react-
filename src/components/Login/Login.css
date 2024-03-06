@@ -1,0 +1,56 @@
+.form-container {
+  margin: 50px auto;
+  width: 500px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #95a0a7;
+  background: #fff;
+  padding: 42px;
+}
+
+.form-title {
+  text-align: center;
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.088px;
+}
+.form-control label {
+  margin-bottom: 9px;
+  display: block;
+  color: #2a414f;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.026px;
+}
+.form-control input {
+  padding: 6px;
+  font-size: medium;
+  width: 100%;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #95a0a7;
+  margin-bottom: 20px;
+}
+.login-btn {
+  margin-top: 44px;
+  width: 100%;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: rgba(255, 153, 0, 0.3);
+}
+.toogle-singup{
+    text-align: center;
+}
+.toogle-singup a{
+    color: #F90;
+}
